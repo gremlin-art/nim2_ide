@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+    <Languages>
+        <!-- name must be the same as the one in the language menu. -->
+        <!-- ext here is the default one. -->
+        <!-- Comments are the comment that is used from the context menu when you tell np++ to comment a line. -->
+        <Language name="Nim 2" ext="nim nims" commentLine="#" commentStart="#[" commentEnd="]#" tabSettings="130">
+            <Keywords name="0" />
+        </Language>
+    </Languages>
+    <LexerStyles>
+        <!-- name must be the same as the Language name above. -->
+        <!-- desc is what shows up in the styler configuator. -->
+        <!-- ext is the "user defined" one. -->
+        <!-- excluded is whether is shows up in the language menu. (Can be changed in the settings by the user the normal way.) -->
+        <LexerType name="Nim 2" desc="Nim Lang" excluded="no" ext="">
+            <!-- name is what shows up in the styler config for that style. -->
+            <!-- styleID can be 0 through 31. -->
+            <!-- keywordClass can be a number between 0 and 8 or the words that are normally used. -->
+            <WordsStyle name="Default" styleID="0" fgColor="FFFFFF" bgColor="000040" colorStyle="0" fontName="" fontStyle="0" />
+            <WordsStyle name="Keyword" styleID="1" fgColor="FFFF00" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="BlockComment" styleID="2" fgColor="80A0FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="LineComment" styleID="3" fgColor="80A0FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="1" />
+            <WordsStyle name="Type" styleID="4" fgColor="00FF00" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Number" styleID="5" fgColor="00FFFF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="String" styleID="6" fgColor="FFCDCD" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Pragma" styleID="7" fgColor="8000FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Operator" styleID="8" fgColor="9999FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Char" styleID="9" fgColor="FF00FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Ident" styleID="10" fgColor="C0C0C0" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Magic" styleID="11" fgColor="CC615B" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
+            <WordsStyle name="Braces" styleID="12" fgColor="FF8080" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Star" styleID="13" fgColor="FF0000" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="TripleString" styleID="14" fgColor="8B814C" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="RawString" styleID="15" fgColor="8B8878" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="CType" styleID="16" fgColor="FF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="DocBlockComment" styleID="17" fgColor="C3CB80" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
+            <WordsStyle name="DocComment" styleID="18" fgColor="C3CB80" bgColor="000040" colorStyle="1" fontName="" fontStyle="3" />
+            <WordsStyle name="EscapedChar" styleID="19" fgColor="1A9A1A" bgColor="000040" colorStyle="1" fontName="" fontStyle="1" />
+            <WordsStyle name="ProcName" styleID="20" fgColor="A0FFFF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="BinaryOctalHex" styleID="21" fgColor="00AFFF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="FirstUpper" styleID="22" fgColor="7EE787" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
+            <WordsStyle name="MethodCall" styleID="23" fgColor="BF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Command" styleID="24" fgColor="CF9A69" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="NonOverloadable" styleID="25" fgColor="FF8000" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+			<WordsStyle name="BacktickQuote" styleID="26" fgColor="FF9A9A" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+        </LexerType>
+    </LexerStyles>
+</NotepadPlus>
