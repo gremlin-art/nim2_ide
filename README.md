@@ -23,7 +23,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
 ## Requirements
 
   * Notepad++ x64 (8.6.4 to 8.7)
-  * Nim v2 (2.0.2 to 2.0.10) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
+  * Nim v2 (2.0.2 to 2.0.12) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
 
