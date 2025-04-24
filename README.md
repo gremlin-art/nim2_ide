@@ -4,6 +4,8 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Features
 
+Features can be temporarily disabled via Notepad++ Plugins menu.
+
   * Full syntax highlighting lexer
   * Unicode lexer
   * Code folding
@@ -18,16 +20,24 @@ Notepad++ plug-in IDE for Nim v2 programming language
   * Go to definition - on mouse click or key combo
   * Symbol usages - aka. references
   * Pretty format
-  * Compile
+  * Compile project
+  * Compile current file
 
 ## Requirements
 
-  * Notepad++ x64 (8.6.4 to 8.7.7)
-  * Nim v2 (2.0.2 to 2.2.2) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
+  * Notepad++ x64 (8.6.4 to 8.7.9)
+  * Nim v2 (2.0.2 to 2.2.4) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
 
   * Not compatible with other Notepad++ plug-in's written in Nim.
+  * Some features not compatible with Notepad++ "Other view".
+
+## Known Issues
+
+  * Some features degraded in current Tab after "Save As..." to different file.
+    - RCA: Notepad++ returns old filename for "buffer id" of Tab.
+    - Workaround: close and re-open Tab.
 
 ## Installation
 
