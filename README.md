@@ -6,21 +6,21 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
   * Full syntax highlighting lexer
   
-  Highlight more Nim features than other lexers.
+    Highlight more Nim features than other lexers.
   
   * Unicode lexer
   
-  Highlight Nim unicode operators.
+    Highlight Nim unicode operators.
   
   * Managed multi-thread backend
   
-  No LSP bloat. Automatically prune threads and _nimsuggest_ processes.
+    No LSP bloat. Automatically prune threads and _nimsuggest_ processes.
   
   * One nimsuggest per project
   
-  Efficiently share one _nimsuggest_ process among files in a directory tree.
+    Efficiently share one _nimsuggest_ process among files in a directory tree.
   
-  * Advanced features using **nimsuggest**
+  * Advanced features - using **nimsuggest**
     - Project aware
     - Context aware auto-completion
     - Call tips
@@ -51,12 +51,12 @@ Notepad++ plug-in IDE for Nim v2 programming language
   1. Download from [GitHub "Releases"](https://github.com/gremlin-art/nim2_ide/releases)
   2. Extract and copy files to your Notepad++ plugins directory:
   
-    ```batchfile
-    cd "C:\Program Files\Notepad++\plugins"
-    mkdir nim2_ide
-    copy nim2_ide.dll nim2_ide\nim2_ide.dll
-    copy nim2_ide.xml Config\nim2_ide.xml
-    ```
+```batchfile
+cd "C:\Program Files\Notepad++\plugins"
+mkdir nim2_ide
+copy nim2_ide.dll nim2_ide\nim2_ide.dll
+copy nim2_ide.xml Config\nim2_ide.xml
+```
 
   3. Restart Notepad++
 
