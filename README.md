@@ -26,6 +26,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
     - Call tips
     - Real-time code analysis
     - Detailed code analysis (on file save)
+    - Highlight symbols (on scroll)
     - Hover (with mouse) for definition
     - Go to definition (on mouse click)
     - Symbol usages (references)
@@ -38,7 +39,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 (8.6.4 to 8.8.2)
+  * Notepad++ x64 (8.6.4 to 8.8.5)
   * Nim v2 (2.0.2 to 2.2.4) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
