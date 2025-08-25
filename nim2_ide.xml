@@ -26,11 +26,11 @@
             <WordsStyle name="String" styleID="6" fgColor="FFCDCD" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Pragma" styleID="7" fgColor="A347FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Operator" styleID="8" fgColor="BF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
-            <WordsStyle name="Char" styleID="9" fgColor="FF00FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Char" styleID="9" fgColor="D850CF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Ident" styleID="10" fgColor="B0B0B0" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Magic" styleID="11" fgColor="CC615B" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="Braces" styleID="12" fgColor="FF8080" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
-            <WordsStyle name="Star" styleID="13" fgColor="D850CF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Star" styleID="13" fgColor="FF00FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="TripleString" styleID="14" fgColor="8B814C" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="RawString" styleID="15" fgColor="8B8878" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="CType" styleID="16" fgColor="FF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
