@@ -21,7 +21,7 @@
             <WordsStyle name="Keyword" styleID="1" fgColor="00BFFF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="BlockComment" styleID="2" fgColor="C3CB80" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="LineComment" styleID="3" fgColor="C3CB80" bgColor="000040" colorStyle="1" fontName="" fontStyle="1" />
-            <WordsStyle name="Type" styleID="4" fgColor="00F800" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Type" styleID="4" fgColor="00E000" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Number" styleID="5" fgColor="00F8F8" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="String" styleID="6" fgColor="FFCDCD" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Pragma" styleID="7" fgColor="A347FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
@@ -30,7 +30,7 @@
             <WordsStyle name="Ident" styleID="10" fgColor="B0B0B0" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Magic" styleID="11" fgColor="CC615B" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="Braces" styleID="12" fgColor="FF8080" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
-            <WordsStyle name="Star" styleID="13" fgColor="FF00FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
+            <WordsStyle name="Star" styleID="13" fgColor="FF0000" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="TripleString" styleID="14" fgColor="8B814C" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="RawString" styleID="15" fgColor="8B8878" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="CType" styleID="16" fgColor="FF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
@@ -38,7 +38,7 @@
             <WordsStyle name="DocComment" styleID="18" fgColor="80A0FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="3" />
             <WordsStyle name="EscapedChar" styleID="19" fgColor="1A9A1A" bgColor="000040" colorStyle="1" fontName="" fontStyle="1" />
             <WordsStyle name="RoutineName" styleID="20" fgColor="A0FFFF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
-            <WordsStyle name="BinaryOctalHex" styleID="21" fgColor="FFE8B0" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
+            <WordsStyle name="BinaryOctalHex" styleID="21" fgColor="B0E8B0" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="FirstUpper" styleID="22" fgColor="7EE787" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="MethodCall" styleID="23" fgColor="9999FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="Command" styleID="24" fgColor="CF9A69" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
