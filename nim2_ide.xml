@@ -46,7 +46,7 @@
             <WordsStyle name="BacktickQuote" styleID="26" fgColor="FF9A9A" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
             <WordsStyle name="EnumField" styleID="27" fgColor="FF80FF" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="ForVar" styleID="28" fgColor="E0E000" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
-            <WordsStyle name="Iterator" styleID="29" fgColor="CF9A69" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
+            <WordsStyle name="Var" styleID="29" fgColor="CF9A69" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="Let" styleID="30" fgColor="D3D3D3" bgColor="000040" colorStyle="1" fontName="" fontStyle="2" />
             <WordsStyle name="GlobalVar" styleID="31" fgColor="4FCF4F" bgColor="000040" colorStyle="1" fontName="" fontStyle="0" />
         </LexerType>

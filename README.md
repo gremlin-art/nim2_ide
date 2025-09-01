@@ -22,14 +22,14 @@ Notepad++ plug-in IDE for Nim v2 programming language
   
   * Advanced features - using **nimsuggest**
     - Project aware
-    - Context aware auto-completion
+    - Context aware, intelligent code completion
     - Call tips
-    - Real-time code analysis
+    - Real-time code analysis / linting
     - Detailed code analysis (on file save)
     - Highlight symbols (on scroll)
     - Hover (with mouse) for definition
-    - Go to definition (on mouse click)
-    - Symbol usages (references)
+    - Go to definition (on click)
+    - Symbol usages / references
   
   * Pretty format - using **nimpretty**
   * Code folding
@@ -63,7 +63,11 @@ copy nim2_ide.xml Config\nim2_ide.xml
 
 ## Notepad++ Configuration
 
-  1. Disable **native autocomplete** in *Settings > Preferences... > Auto-Completion*
+  1. Prevent **tab key** from triggering auto-completion
+     1. Go to *Settings > Preferences... > Auto-Completion*
+     2. Check "Enable auto-completion on each input"
+     3. Check "Function completion" radio button
+     4. Uncheck "TAB" under *Insert Selection*
   2. Switch to a **dark theme** in *Settings > Style Configurator...*
   3. Select **Nim 2** in *Language > N...* to activate plug-in for current tab.
   4. Optional: Toggle plug-in features by un/checking items in *Plugins > Nim2 IDE*
