@@ -4,21 +4,21 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Features
 
-  * Full syntax highlighting lexer
+  * Multi-pass syntax and symbol highlighting
   
-    Highlight more Nim features than other lexers.
+    Highlight more syntax than other lexers. _nimsuggest_ highlight symbols.
   
   * Unicode lexer
   
     Highlight Nim unicode operators.
   
-  * Managed multi-thread backend
+  * Zero-config multi-thread backend
   
-    No LSP bloat. Automatically prune threads and _nimsuggest_ processes.
+    No LSP bloat. Managed thread pool and _nimsuggest_ processes.
   
   * One nimsuggest per project
   
-    Efficiently share one _nimsuggest_ process among files in a directory tree.
+    Efficiently share _nimsuggest_ in a project and among sub-directories.
   
   * Advanced features - using **nimsuggest**
     - Project aware
@@ -39,13 +39,13 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 (8.6.4 to 8.8.5)
+  * Notepad++ 8.8.5 x64
   * Nim v2 (2.0.2 to 2.2.4) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
 
   * Not compatible with other Notepad++ plug-in's written in Nim.
-  * Some features not compatible with Notepad++ "Other view".
+  * When using Notepad++ "split view" some features only available in current view.
 
 ## Installation
 
@@ -70,5 +70,8 @@ copy nim2_ide.xml Config\nim2_ide.xml
      4. Uncheck "TAB" under *Insert Selection*
   2. Switch to a **dark theme** in *Settings > Style Configurator...*
   3. Select **Nim 2** in *Language > N...* to activate plug-in for current tab.
-  4. Optional: Toggle plug-in features by un/checking items in *Plugins > Nim2 IDE*
-  5. Optional: Customize shortcuts in *Macros > Modify Shortcut/Delete Macro... > Plugin commands*
+
+### Optional
+
+  1. Toggle plug-in features by un/checking items in *Plugins > Nim2 IDE*
+  2. Customize shortcuts in *Macros > Modify Shortcut/Delete Macro... > Plugin commands*
