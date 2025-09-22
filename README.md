@@ -6,7 +6,11 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
   * Multi-pass syntax and symbol highlighting
   
-    Highlight more syntax than other lexers. _nimsuggest_ highlight symbols.
+    Syntax highlighting superimposed with _nimsuggest_ symbols.
+  
+  * Full syntax highlighting
+  
+    Highlight more Nim features than other lexers.
   
   * Unicode lexer
   
@@ -18,7 +22,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
   
   * One nimsuggest per project
   
-    Efficiently share _nimsuggest_ in a project and among sub-directories.
+    Efficiently share _nimsuggest_ in a project and its directory tree.
   
   * Advanced features - using **nimsuggest**
     - Project aware
@@ -44,8 +48,10 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ### Compatibility
 
-  * Not compatible with other Notepad++ plug-in's written in Nim.
-  * When using Notepad++ "split view" some features only available in current view.
+  * Not compatible with other Notepad++ plug-in's written in Nim
+  * Not compatible with Notepad++ auto-completion
+  * No real-time code linting when using Notepad++ "Search > Replace..."
+  * IDE features target the editor tab (with focus) in Notepad++ "split view"
 
 ## Installation
 
@@ -63,15 +69,16 @@ copy nim2_ide.xml Config\nim2_ide.xml
 
 ## Notepad++ Configuration
 
-  1. Prevent **tab key** from triggering auto-completion
+  1. Disable **auto-completion** in *Settings > Preferences... > Auto-Completion*
+  2. Switch to a **dark theme** in *Settings > Style Configurator...*
+  3. Select **Nim 2** in *Language > N...* to activate plug-in for current tab
+
+### Optional
+
+  1. Toggle plug-in **features** by un/checking items in *Plugins > Nim2 IDE*
+  2. Customize shortcuts in *Macros > Modify Shortcut/Delete Macro... > Plugin commands*
+  3. Workaround to prevent **tab key** from triggering _nimsuggest_ code completion
      1. Go to *Settings > Preferences... > Auto-Completion*
      2. Check "Enable auto-completion on each input"
      3. Check "Function completion" radio button
      4. Uncheck "TAB" under *Insert Selection*
-  2. Switch to a **dark theme** in *Settings > Style Configurator...*
-  3. Select **Nim 2** in *Language > N...* to activate plug-in for current tab.
-
-### Optional
-
-  1. Toggle plug-in features by un/checking items in *Plugins > Nim2 IDE*
-  2. Customize shortcuts in *Macros > Modify Shortcut/Delete Macro... > Plugin commands*
