@@ -43,7 +43,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ 8.8.5 x64
+  * Notepad++ x64 v8 (8.8.5 to 8.8.6)
   * Nim v2 (2.0.2 to 2.2.4) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
@@ -51,7 +51,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
   * Not compatible with other Notepad++ plug-in's written in Nim
   * Not compatible with Notepad++ auto-completion
   * No real-time code linting when using Notepad++ "Search > Replace..."
-  * IDE features target the editor tab (with focus) in Notepad++ "split view"
+  * Limited features when using Notepad++ "File > New" until saved to file
 
 ## Installation
 
