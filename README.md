@@ -55,6 +55,10 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Installation
 
+nim2_ide is available for personal use under [the NPUL license](https://github.com/gremlin-art/nim2_ide/blob/main/LICENSE.md).
+
+By downloading, you agree to the terms and conditions of the respective license.
+
   1. Download from [GitHub "Releases"](https://github.com/gremlin-art/nim2_ide/releases)
   2. Extract and copy files to your Notepad++ plugins directory:
   
