@@ -43,8 +43,8 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 v8 (8.8.5 to 8.8.6)
-  * Nim v2 (2.0.2 to 2.2.4) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
+  * Notepad++ x64 v8 (8.9.1, 8.9.2)
+  * Nim v2 (2.0.16, 2.2.4 - 2.2.8) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
 
 ### Compatibility
 
@@ -55,7 +55,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Installation
 
-nim2_ide is available for personal use under [the NPUL license](https://github.com/gremlin-art/nim2_ide/blob/main/LICENSE.md).
+nim2_ide is available for personal use under [the NPUL license](https://github.com/gremlin-art/nim2_ide/LICENSE.md).
 
 By downloading, you agree to the terms and conditions of the respective license.
 
