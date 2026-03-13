@@ -49,9 +49,10 @@ Notepad++ plug-in IDE for Nim v2 programming language
 ### Compatibility
 
   * Not compatible with other Notepad++ plug-in's written in Nim
-  * Not compatible with Notepad++ auto-completion
-  * No real-time code linting when using Notepad++ "Search > Replace..."
+  * Some features not compatible with Notepad++ auto-completion
+  * No code analysis while using Notepad++ "Search > Replace..."
   * Limited features when using Notepad++ "File > New" until saved to file
+  * Limited features until Tab is active in Notepad++ split view
 
 ## Installation
 
