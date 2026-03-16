@@ -43,8 +43,13 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 v8 (8.9.1, 8.9.2)
+  * Notepad++ x64 v8 (8.9.2, 8.9.3)
   * Nim v2 (2.0.16, 2.2.4 - 2.2.8) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
+  * Disk space
+    * Notepad++ "plugins" directory: 124 KB
+    * Temporary directory: 4 KB (minimum)
+  * Memory
+    * plug-in only: 0.6 MB (minimum)
 
 ### Compatibility
 
@@ -52,7 +57,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
   * Some features not compatible with Notepad++ auto-completion
   * No code analysis while using Notepad++ "Search > Replace..."
   * Limited features when using Notepad++ "File > New" until saved to file
-  * Limited features until Tab is active in Notepad++ split view
+  * Limited features in Notepad++ split-view until Tab is active
 
 ## Installation
 
@@ -72,6 +77,16 @@ copy nim2_ide.xml Config\nim2_ide.xml
 
   3. Restart Notepad++
 
+## Uninstallation
+
+  1. Exit Notepad++
+  2. Remove files from Notepad++ plugins directory:
+  
+```batchfile
+cd "C:\Program Files\Notepad++\plugins"
+del nim2_ide\nim2_ide.dll Config\nim2_ide.xml
+```
+
 ## Notepad++ Configuration
 
   1. Disable **auto-completion** in *Settings > Preferences... > Auto-Completion*
@@ -80,10 +95,5 @@ copy nim2_ide.xml Config\nim2_ide.xml
 
 ### Optional
 
-  1. Toggle plug-in **features** by un/checking items in *Plugins > Nim2 IDE*
+  1. Toggle **features** by un/checking items in *Plugins > Nim2 IDE*
   2. Customize shortcuts in *Macros > Modify Shortcut/Delete Macro... > Plugin commands*
-  3. Workaround to prevent **tab key** from triggering _nimsuggest_ code completion
-     1. Go to *Settings > Preferences... > Auto-Completion*
-     2. Check "Enable auto-completion on each input"
-     3. Check "Function completion" radio button
-     4. Uncheck "TAB" under *Insert Selection*
