@@ -4,9 +4,9 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Features
 
-  * Multi-pass syntax and symbol highlighting
+  * Multi-pass highlighting
   
-    Syntax highlighting superimposed with _nimsuggest_ symbols.
+    Syntax highlighting superimposed with compiler symbols.
   
   * Full syntax highlighting
   
@@ -43,8 +43,8 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 v8 (8.9.2, 8.9.3)
-  * Nim v2 (2.0.16, 2.2.4 - 2.2.8) IDE tools in your path - ie. `nim`, `nimpretty`, `nimsuggest`
+  * Notepad++ x64 v8 (8.9.3 - 8.9.4)
+  * Nim v2 (2.0.16, 2.2.6 - 2.2.10) IDE tools in your path
   * Disk space
     * Notepad++ "plugins" directory: 124 KB
     * Temporary directory: 4 KB (minimum)
@@ -53,11 +53,11 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ### Compatibility
 
-  * Not compatible with other Notepad++ plug-in's written in Nim
+  * Not compatible with other plug-in's written in Nim
   * Some features not compatible with Notepad++ auto-completion
-  * No code analysis while using Notepad++ "Search > Replace..."
-  * Limited features when using Notepad++ "File > New" until saved to file
-  * Limited features in Notepad++ split-view until Tab is active
+  * No code analysis while using "Search > Replace..."
+  * Limited features when using "File > New" until saved to file
+  * Limited features in split-view until Tab is active
 
 ## Installation
 
