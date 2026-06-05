@@ -43,10 +43,10 @@ Notepad++ plug-in IDE for Nim v2 programming language
 
 ## Requirements
 
-  * Notepad++ x64 v8 (8.9.4 - 8.9.5)
+  * Notepad++ x64 v8 (8.9.5 - 8.9.6.4)
   * Nim v2 (2.0.16, 2.2.6 - 2.2.10) IDE tools in your path
   * Disk space
-    * Notepad++ "plugins" directory: 124 KB
+    * Notepad++ "plugins" directory: 112 KB
     * Temporary directory: 4 KB (minimum)
   * Memory
     * plug-in only: 0.6 MB (minimum)
