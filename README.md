@@ -22,42 +22,41 @@ Notepad++ plug-in IDE for Nim v2 programming language
   
   * One nimsuggest per project
   
-    Efficiently share _nimsuggest_ in a project and its directory tree.
+    Efficiently share _nimsuggest_ among multiple tabs and views.
   
-  * Advanced features - using **nimsuggest**
+  * Advanced features
     - Project aware
     - Context aware, intelligent code completion
     - Call tips
-    - Real-time code analysis / linting
+    - Real-time code analysis
     - Detailed code analysis (on file save)
-    - Highlight symbols (on scroll)
+    - Highlight "compiler" symbols (on scroll)
     - Hover (with mouse) for definition
     - Go to definition (on click)
-    - Symbol usages / references
+    - Symbol usages
+    - Pretty format
+    - Compile project or file
   
-  * Pretty format - using **nimpretty**
   * Code folding
-  * Compile project
-  * Compile current file
-  * Toggle features on/off
+  
+  * Toggle features on / off
 
 ## Requirements
 
-  * Notepad++ x64 v8 (8.9.5 - 8.9.6.4)
-  * Nim v2 (2.0.16, 2.2.6 - 2.2.10) IDE tools in your path
+  * Notepad++ x64 v8 (8.9.5 - 8.9.8)
+  * For advanced features: Nim v2 (2.0.16, 2.2.6 - 2.2.10) IDE tools in your path
   * Disk space
     * Notepad++ "plugins" directory: 112 KB
     * Temporary directory: 4 KB (minimum)
-  * Memory
-    * plug-in only: 0.6 MB (minimum)
+  * Memory: ~600 KB (minimum)
 
 ### Compatibility
 
   * Not compatible with other plug-in's written in Nim
   * Some features not compatible with Notepad++ auto-completion
   * No code analysis while using "Search > Replace..."
-  * Limited features when using "File > New" until saved to file
-  * Limited features in split-view until Tab is active
+  * Limited features upon "File > New" until saved to file
+  * Limited features in Notepad++ split-view "Other view"
 
 ## Installation
 
