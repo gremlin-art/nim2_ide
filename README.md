@@ -18,7 +18,7 @@ Notepad++ plug-in IDE for Nim v2 programming language
   
   * Zero-config multi-thread backend
   
-    No LSP bloat. Managed thread pool and _nimsuggest_ processes.
+    No LSP bloat.
   
   * One nimsuggest per project
   
@@ -46,11 +46,11 @@ Notepad++ plug-in IDE for Nim v2 programming language
   * Notepad++ x64 v8 (8.9.5 - 8.9.8)
   * For advanced features: Nim v2 (2.0.16, 2.2.6 - 2.2.12) IDE tools in your path
   * Disk space
-    * Notepad++ "plugins" directory: 100 KB
+    * Notepad++ "plugins" directory: 104 KB
     * Temporary directory: 4 KB (minimum)
   * Memory: ~600 KB (minimum)
 
-### Compatibility
+### Limitations
 
   * Not compatible with other plug-in's written in Nim
   * Some features not compatible with Notepad++ auto-completion
